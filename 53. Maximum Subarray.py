@@ -16,3 +16,13 @@ class Solution:
                 sum = 0
 
         return max
+
+# Solution 2. (Kadane's Algorithm)
+
+        curr = nums[0]
+        maximum = nums[0]
+
+        for i in nums[1:]:
+            curr = max(i, curr+i)
+            maximum = max(maximum, curr)
+        return maximum
