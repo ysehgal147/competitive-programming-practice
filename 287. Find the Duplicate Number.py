@@ -36,3 +36,12 @@ class Solution:
         for i in x:
             if nums.count(i) > 1:
                 return i
+
+# Solution 4. (Using Python Sets 2)
+
+        x = set()
+        for i in nums:
+            if i in x:
+                return i
+            else:
+                x.add(i)
