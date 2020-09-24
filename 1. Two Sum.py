@@ -3,7 +3,7 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
 
-        # Solution 1. (Traversing)
+        # Solution 1. (Hash Map)
 
         dict = {}
         for i in range(len(nums)):
