@@ -18,7 +18,7 @@
 string1 = input() # Initialized string
 string2 = input() # To be checked
 
-connectstring = string1 + string2
+connectstring = string1 + string1
 
 if string2 in connectstring:
     print(1)
