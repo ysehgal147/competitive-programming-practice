@@ -31,7 +31,7 @@ class Solution:
                 one += 1
             elif nums[one] == 1:
                 one += 1
-            else:
+            elif nums[one] == 2:
                 nums[one], nums[two] = nums[two], nums[one]
                 two -= 1
 
